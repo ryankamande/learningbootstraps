@@ -1,0 +1,30 @@
+body{
+  background-color: coral;
+}
+
+h1{
+  color: azure;
+}
+button{
+  color: darkblue;
+  background: blueviolet;
+  padding: 10px 30px;
+  width: 200px;
+}
+
+input{
+  background: crimson;
+}
+
+table,td,th{
+  border: 1px solid red;
+}
+
+th{
+  height: 50px;
+}
+
+td{
+  text-align: center;
+  font-size: 12px;
+}
