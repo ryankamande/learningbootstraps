@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner{
+  background-color: bisque;
+  width: 100%;
+  height: 100vh;
+}
+nav{
+  margin: auto;
+  width: 85%;
+  padding: 35px 0;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px 19px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: orangered;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.info{
+  margin-left: 8%;
+  margin-top: 100px;
+}
+
+.info h1{
+  font-family: "Roboto Light";
+  color: darkviolet;
+  margin-bottom: 15px;
+}
+
+span{
+  color:#E5B110;
+  line-height: 25px;
+}
+
+.info a{
+  text-decoration: none;
+  padding: 10px 19px;
+  background-color: #b3d4fc;
+  margin: 30px 0;
+  display: inline-block;
+  border-radius: 10px;
+  color: azure;
+}
+
+.images{
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 150px;
+}
+.images img{
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+.images:hover.object{
+  bottom: 40px;
+}
+.images:hover.myself{
+  left: 45%;
+}
+
+<div class="text">
+  <h2>Lorem ipsum dolor sit amet</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cumque fuga illo ipsa, ipsum laboriosam, minima recusandae repellat saepe similique temporibus voluptates? Aperiam aut delectus incidunt ipsam magni quas repellat.</p>
+  <a href="">Learn More</a>
+  <img src="img/mountain.jpg" alt="">
+</div>
+
+<div class="center">
+  <h1>This is a Heading</h1>
+  <h3>Aliquam et iaculis sapien</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut dolorem dolorum explicabo harum modi, odio provident quas repudiandae! Debitis distinctio dolores est et impedit laboriosam omnis reiciendis sint tempore.</p>
+  <a href="">Learn More</a>
+  <h3>Aliquam et iaculis sapien</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, debitis, distinctio eaque, eius eum eveniet exercitationem fuga iste iure mollitia necessitatibus pariatur qui reiciendis repudiandae rerum sapiente soluta ullam voluptatum.</p>
+  <a href="">Learn More</a>
+  <h3>Aliquam et iaculis sapien</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi at beatae, blanditiis consequuntur dignissimos distinctio eligendi, et eveniet harum magni maxime minima neque nobis praesentium recusandae tempore? Id, temporibus.</p>
+  <a href="">Learn More</a>
+</div>
+
+<div class="subsection">
+  <h2>Latest Posts</h2>
+   <h3>Aliquam et iaculis sapien</h3>
+     <p>A aut dolorem dolorum explicabo harum modi</p>
+   <h3>Aliquam et iaculis sapien</h3>
+     <p>A aut dolorem dolorum explicabo harum modi</p>
+   <h3>Aliquam et iaculis sapien</h3>
+     <p>A aut dolorem dolorum explicabo harum modi</p>
+
+  <h2>About</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolorem ipsam itaque laboriosam laudantium nulla omnis, quisquam reiciendis veniam voluptatibus. Animi distinctio enim explicabo ipsam, molestias nemo nulla praesentium quaerat?</p>
+
+  <h2>Stay Connected</h2>
+</div>
+
+<div class="footer">
+  <p>Copyrights 2023. All rights reserved to Drexx Creatives</p>
+</div>
